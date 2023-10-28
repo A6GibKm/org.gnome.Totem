@@ -194,23 +194,6 @@
             ]
         },
         {
-            "name": "tracker",
-            "buildsystem": "meson",
-            "cleanup" : [ "/lib/tracker-3.0/trackertestutils" ],
-            "config-opts" : [
-                "-Ddocs=false",
-                "-Dman=false",
-                "-Dsystemd_user_services=false"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/tracker.git",
-                    "tag": "3.6.0"
-                }
-            ]
-        },
-        {
             "name": "tracker-miners",
             "cleanup": [ "/bin", "/etc" ],
             "buildsystem": "meson",
