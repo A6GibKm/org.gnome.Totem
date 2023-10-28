@@ -46,6 +46,9 @@
         "--env=GST_PLUGIN_PATH=/app/lib/codecs/lib/gstreamer-1.0",
         /* Disable runtime GStreamer plugins */
         "--env=GST_PLUGIN_SYSTEM_PATH=/app/lib/gstreamer-1.0",
+        /* Setup tracker */
+        "--talk-name=org.freedesktop.Tracker3.Writeback",
+        "--add-policy=Tracker3.dbus:org.freedesktop.Tracker3.Miner.Files=tracker:Video",
         /* totem-pl-parser extension */
         "--env=PATH=/app/lib/totem-pl-parser/bin/:/app/lib/codecs/bin/:/app/bin:/usr/bin",
         "--env=TOTEM_PL_PARSER_VIDEOSITE_SCRIPT_DIR=/app/lib/totem-pl-parser/bin/",
