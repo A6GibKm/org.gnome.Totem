@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Totem",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "45",
+    "runtime-version": "46",
     "sdk": "org.gnome.Sdk",
     "command": "totem",
     "finish-args": [
@@ -150,8 +150,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/gnome-online-accounts.git",
-                    "commit": "ebab108d4d8505b56cc313acad341520ed18df8f",
-                    "tag": "3.48.0"
+                    "commit": "05a2dc771e6645cb60ff3a9352af91e9572ce976",
+                    "tag": "3.50.0"
                 }
             ]
         },
@@ -188,8 +188,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/gom.git",
-                    "commit": "26816b74a29b9d2d8dc169ed2f9649a4a159bc7c",
-                    "tag": "0.4"
+                    "commit": "de52f4fe1d317258f9c8f386d9ab82f03ac3a4fb",
+                    "tag": "0.5.0"
                 }
             ]
         },
@@ -214,7 +214,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/tracker-miners.git",
-                    "tag": "3.6.1"
+                    "tag": "3.7.0"
                 }
             ]
         },
@@ -329,7 +329,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/totem.git",
-                    "commit": "8f5d0b6f857282041ac7ccca64df652efbd146cb"
+                    "commit": "6dcae596d6c95b6c715c67fcc0d12f433ce6d90c"
                 }
             ]
         }
